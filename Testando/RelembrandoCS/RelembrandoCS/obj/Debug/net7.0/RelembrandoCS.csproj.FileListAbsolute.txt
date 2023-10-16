@@ -1,0 +1,14 @@
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\RelembrandoCS\bin\Debug\net7.0\RelembrandoCS.exe
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\RelembrandoCS\bin\Debug\net7.0\RelembrandoCS.deps.json
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\RelembrandoCS\bin\Debug\net7.0\RelembrandoCS.runtimeconfig.json
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\RelembrandoCS\bin\Debug\net7.0\RelembrandoCS.dll
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\RelembrandoCS\bin\Debug\net7.0\RelembrandoCS.pdb
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\RelembrandoCS\obj\Debug\net7.0\RelembrandoCS.GeneratedMSBuildEditorConfig.editorconfig
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\RelembrandoCS\obj\Debug\net7.0\RelembrandoCS.AssemblyInfoInputs.cache
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\RelembrandoCS\obj\Debug\net7.0\RelembrandoCS.AssemblyInfo.cs
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\RelembrandoCS\obj\Debug\net7.0\RelembrandoCS.csproj.CoreCompileInputs.cache
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\RelembrandoCS\obj\Debug\net7.0\RelembrandoCS.dll
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\RelembrandoCS\obj\Debug\net7.0\refint\RelembrandoCS.dll
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\RelembrandoCS\obj\Debug\net7.0\RelembrandoCS.pdb
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\RelembrandoCS\obj\Debug\net7.0\RelembrandoCS.genruntimeconfig.cache
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\RelembrandoCS\obj\Debug\net7.0\ref\RelembrandoCS.dll

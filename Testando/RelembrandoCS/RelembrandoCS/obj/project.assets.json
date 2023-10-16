@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IT\\dotNET\\Estudos\\Csharp\\relembrando_cs\\relembrando_cs.csproj",
-      "projectName": "relembrando_cs",
-      "projectPath": "D:\\IT\\dotNET\\Estudos\\Csharp\\relembrando_cs\\relembrando_cs.csproj",
+      "projectUniqueName": "D:\\IT\\dotNET\\Estudos\\Csharp\\Testando\\RelembrandoCS\\RelembrandoCS\\RelembrandoCS.csproj",
+      "projectName": "RelembrandoCS",
+      "projectPath": "D:\\IT\\dotNET\\Estudos\\Csharp\\Testando\\RelembrandoCS\\RelembrandoCS\\RelembrandoCS.csproj",
       "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-      "outputPath": "D:\\IT\\dotNET\\Estudos\\Csharp\\relembrando_cs\\obj\\",
+      "outputPath": "D:\\IT\\dotNET\\Estudos\\Csharp\\Testando\\RelembrandoCS\\RelembrandoCS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",

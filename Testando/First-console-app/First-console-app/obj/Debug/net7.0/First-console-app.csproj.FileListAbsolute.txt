@@ -1,0 +1,14 @@
+D:\IT\dotNET\Estudos\Csharp\Testando\First-console-app\First-console-app\bin\Debug\net7.0\First-console-app.exe
+D:\IT\dotNET\Estudos\Csharp\Testando\First-console-app\First-console-app\bin\Debug\net7.0\First-console-app.deps.json
+D:\IT\dotNET\Estudos\Csharp\Testando\First-console-app\First-console-app\bin\Debug\net7.0\First-console-app.runtimeconfig.json
+D:\IT\dotNET\Estudos\Csharp\Testando\First-console-app\First-console-app\bin\Debug\net7.0\First-console-app.dll
+D:\IT\dotNET\Estudos\Csharp\Testando\First-console-app\First-console-app\bin\Debug\net7.0\First-console-app.pdb
+D:\IT\dotNET\Estudos\Csharp\Testando\First-console-app\First-console-app\obj\Debug\net7.0\First-console-app.GeneratedMSBuildEditorConfig.editorconfig
+D:\IT\dotNET\Estudos\Csharp\Testando\First-console-app\First-console-app\obj\Debug\net7.0\First-console-app.AssemblyInfoInputs.cache
+D:\IT\dotNET\Estudos\Csharp\Testando\First-console-app\First-console-app\obj\Debug\net7.0\First-console-app.AssemblyInfo.cs
+D:\IT\dotNET\Estudos\Csharp\Testando\First-console-app\First-console-app\obj\Debug\net7.0\First-console-app.csproj.CoreCompileInputs.cache
+D:\IT\dotNET\Estudos\Csharp\Testando\First-console-app\First-console-app\obj\Debug\net7.0\First-console-app.dll
+D:\IT\dotNET\Estudos\Csharp\Testando\First-console-app\First-console-app\obj\Debug\net7.0\refint\First-console-app.dll
+D:\IT\dotNET\Estudos\Csharp\Testando\First-console-app\First-console-app\obj\Debug\net7.0\First-console-app.pdb
+D:\IT\dotNET\Estudos\Csharp\Testando\First-console-app\First-console-app\obj\Debug\net7.0\First-console-app.genruntimeconfig.cache
+D:\IT\dotNET\Estudos\Csharp\Testando\First-console-app\First-console-app\obj\Debug\net7.0\ref\First-console-app.dll

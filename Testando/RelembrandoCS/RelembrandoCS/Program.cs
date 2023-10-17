@@ -42,6 +42,17 @@ var racional = 1.61803399; //double
 var logico = (Math.Pow(4,2)==16); //bool
 var caracter = 'C'; //char
 
+/*
+    Strings
+ */
+string textao = "Esse é um texto qualquer.";
+int tamanho = textao.Length;
+string maiusculas = textao.ToUpper();
+string minusculas = textao.ToLower();
+int where_is_e = textao.IndexOf("é");
+string trecho = textao.Substring(0, where_is_e);
+string tabulacao = "Coluna 1\t Coluna 2\t Coluna 3";
+
 // Display
 Console.WriteLine(nome+" tem "+idade+" anos.");
 Console.WriteLine($"{honorifico} {primeiroNome} tem {idadeMaria} anos.");
@@ -57,3 +68,10 @@ Console.WriteLine($"var inteiro = 5 -> {inteiro}; {inteiro.GetType()}" +
     $"var racional = 1.61803399 -> {racional}; {racional.GetType()}\n" +
     $"var logico = (Math.Pow(4,2)==16) -> {logico}; {logico.GetType()}\n" +
     $"var caracter = C -> {caracter}; {caracter.GetType()}\n");
+Console.WriteLine($"==============================================================================\n");
+Console.WriteLine($"texto: {textao};");
+Console.WriteLine($"Em maiusculas: {maiusculas};");
+Console.WriteLine($"Em minusculas: {minusculas};");
+Console.WriteLine($"Posição da primeira aparição do caractere (é): {where_is_e};");
+Console.WriteLine($"trecho de texto: {trecho};");
+Console.WriteLine($"Tabulação: {tabulacao};");

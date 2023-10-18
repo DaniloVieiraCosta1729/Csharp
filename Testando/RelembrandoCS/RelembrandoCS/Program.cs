@@ -138,6 +138,7 @@ foreach (string tag in tags)
     Console.WriteLine(tag);
 }
 =======
+/*
     Vetores
  */
 int[] primos = {2, 3, 5, 7, 11, 13, 17};

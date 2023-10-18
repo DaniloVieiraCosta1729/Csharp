@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Linq;
+
 // Variables
 
 // Não inicializada
@@ -54,6 +56,7 @@ string trecho = textao.Substring(0, where_is_e);
 string tabulacao = "Coluna 1\t Coluna 2\t Coluna 3";
 
 /*
+<<<<<<< HEAD
     Estruturas de controle
  */
 //Condicional
@@ -134,6 +137,16 @@ foreach (string tag in tags)
 {
     Console.WriteLine(tag);
 }
+=======
+    Vetores
+ */
+int[] primos = {2, 3, 5, 7, 11, 13, 17};
+string[] matematicos = new string[4]{"Gauss", "Ramanujan", "Euler", "Arquimedes"};
+string[] fisicos = new string[4];
+fisicos = new string[] {"Newton", "Born", "Ludwig", "Maxwell"};
+
+
+>>>>>>> fa7a76961465277e5431e8a1c3ce02bff0251cd6
 
 // Display
 Console.WriteLine(nome+" tem "+idade+" anos.");
@@ -157,3 +170,11 @@ Console.WriteLine($"Em minusculas: {minusculas};");
 Console.WriteLine($"Posição da primeira aparição do caractere (é): {where_is_e};");
 Console.WriteLine($"trecho de texto: {trecho};");
 Console.WriteLine($"Tabulação: {tabulacao};");
+Console.WriteLine($"{primos}\n{matematicos}\n{fisicos}");
+int a = 1;
+foreach (int id in primos)
+{
+    Console.WriteLine($"{a}° elemento: {id}");
+    a++;
+}
+Console.WriteLine($"Maior: {primos.Max()}\nMenor: {primos.Min()}\nMédia: {primos.Average()}\nSoma: {primos.Sum()}\nQuantidade: {primos.Count()}");

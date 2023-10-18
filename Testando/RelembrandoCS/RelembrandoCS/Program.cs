@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Linq;
+
 // Variables
 
 // Não inicializada
@@ -86,3 +88,10 @@ Console.WriteLine($"Posição da primeira aparição do caractere (é): {where_i
 Console.WriteLine($"trecho de texto: {trecho};");
 Console.WriteLine($"Tabulação: {tabulacao};");
 Console.WriteLine($"{primos}\n{matematicos}\n{fisicos}");
+int a = 1;
+foreach (int id in primos)
+{
+    Console.WriteLine($"{a}° elemento: {id}");
+    a++;
+}
+Console.WriteLine($"Maior: {primos.Max()}\nMenor: {primos.Min()}\nMédia: {primos.Average()}\nSoma: {primos.Sum()}\nQuantidade: {primos.Count()}");

@@ -55,7 +55,6 @@ string tabulacao = "Coluna 1\t Coluna 2\t Coluna 3";
 
 <<<<<<< HEAD
 /*
-<<<<<<< HEAD
     Estruturas de controle
  */
 //Condicional
@@ -136,16 +135,6 @@ foreach (string tag in tags)
 {
     Console.WriteLine(tag);
 }
-=======
-    Vetores
- */
-int[] primos = {2, 3, 5, 7, 11, 13, 17};
-string[] matematicos = new string[4]{"Gauss", "Ramanujan", "Euler", "Arquimedes"};
-string[] fisicos = new string[4];
-fisicos = new string[] {"Newton", "Born", "Ludwig", "Maxwell"};
-
-
->>>>>>> fa7a76961465277e5431e8a1c3ce02bff0251cd6
 
 =======
 >>>>>>> parent of fa7a769 (Merge pull request #3 from DaniloVieiraCosta1729/vetores)

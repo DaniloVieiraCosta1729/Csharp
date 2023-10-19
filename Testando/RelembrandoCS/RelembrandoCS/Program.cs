@@ -53,7 +53,7 @@ int where_is_e = textao.IndexOf("é");
 string trecho = textao.Substring(0, where_is_e);
 string tabulacao = "Coluna 1\t Coluna 2\t Coluna 3";
 
-<<<<<<< HEAD
+
 /*
     Estruturas de controle
  */
@@ -136,8 +136,6 @@ foreach (string tag in tags)
     Console.WriteLine(tag);
 }
 
-=======
->>>>>>> parent of fa7a769 (Merge pull request #3 from DaniloVieiraCosta1729/vetores)
 // Display
 Console.WriteLine(nome+" tem "+idade+" anos.");
 Console.WriteLine($"{honorifico} {primeiroNome} tem {idadeMaria} anos.");

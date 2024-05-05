@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Livro_Csharp_Players_Guide/1.0.0": {
+        "runtime": {
+          "Livro_Csharp_Players_Guide.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Livro_Csharp_Players_Guide/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

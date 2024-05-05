@@ -1,0 +1,14 @@
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\POO\POO\POO\bin\Debug\net7.0\POO.exe
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\POO\POO\POO\bin\Debug\net7.0\POO.deps.json
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\POO\POO\POO\bin\Debug\net7.0\POO.runtimeconfig.json
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\POO\POO\POO\bin\Debug\net7.0\POO.dll
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\POO\POO\POO\bin\Debug\net7.0\POO.pdb
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\POO\POO\POO\obj\Debug\net7.0\POO.GeneratedMSBuildEditorConfig.editorconfig
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\POO\POO\POO\obj\Debug\net7.0\POO.AssemblyInfoInputs.cache
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\POO\POO\POO\obj\Debug\net7.0\POO.AssemblyInfo.cs
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\POO\POO\POO\obj\Debug\net7.0\POO.csproj.CoreCompileInputs.cache
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\POO\POO\POO\obj\Debug\net7.0\POO.dll
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\POO\POO\POO\obj\Debug\net7.0\refint\POO.dll
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\POO\POO\POO\obj\Debug\net7.0\POO.pdb
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\POO\POO\POO\obj\Debug\net7.0\POO.genruntimeconfig.cache
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\POO\POO\POO\obj\Debug\net7.0\ref\POO.dll

@@ -1,0 +1,14 @@
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\Enumeration\Enumeration\bin\Debug\net7.0\Enumeration.exe
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\Enumeration\Enumeration\bin\Debug\net7.0\Enumeration.deps.json
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\Enumeration\Enumeration\bin\Debug\net7.0\Enumeration.runtimeconfig.json
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\Enumeration\Enumeration\bin\Debug\net7.0\Enumeration.dll
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\Enumeration\Enumeration\bin\Debug\net7.0\Enumeration.pdb
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\Enumeration\Enumeration\obj\Debug\net7.0\Enumeration.GeneratedMSBuildEditorConfig.editorconfig
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\Enumeration\Enumeration\obj\Debug\net7.0\Enumeration.AssemblyInfoInputs.cache
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\Enumeration\Enumeration\obj\Debug\net7.0\Enumeration.AssemblyInfo.cs
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\Enumeration\Enumeration\obj\Debug\net7.0\Enumeration.csproj.CoreCompileInputs.cache
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\Enumeration\Enumeration\obj\Debug\net7.0\Enumeration.dll
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\Enumeration\Enumeration\obj\Debug\net7.0\refint\Enumeration.dll
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\Enumeration\Enumeration\obj\Debug\net7.0\Enumeration.pdb
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\Enumeration\Enumeration\obj\Debug\net7.0\Enumeration.genruntimeconfig.cache
+D:\IT\dotNET\Estudos\Csharp\Testando\RelembrandoCS\Enumeration\Enumeration\obj\Debug\net7.0\ref\Enumeration.dll

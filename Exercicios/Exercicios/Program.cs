@@ -36,6 +36,19 @@
 //CalculadoraSWITCHCASE(2,0,"/");
 //CalculadoraSWITCHCASE(5,7,"*");
 //CalculadoraSWITCHCASE(6,8,"-");
+//TabuadaFOR(2);
+//TabuadaWHILE(3);
+//TabuadaDOWHILE(4);
+//TabuadaFOREACH(5);
+//SomaDosImparesFOR(100);
+//SomaDosImparesWHILE(100);
+//SomaDosImparesFOREACH_LINQ(100);
+//ContagemRegressivaWHILE();
+//ContagemRegressivaFOR();
+//ContagemRegressivaFOREACH();
+//AdvinhaNumeroWHILE_TERNARIO();
+//SenhaWHILE();
+Dado();
 
 void Euclides(int x, int y)
 {
@@ -297,4 +310,188 @@ void CalculadoraSWITCHCASE(int x, double y, string operacao)
         default:
             break;
     }
+}
+
+void TabuadaFOR(int n)
+{
+    for (int i = 1; i <= 10; i++)
+    {
+        System.Console.WriteLine($"{i} x {n} = {i*n}");
+    }
+}
+
+void TabuadaWHILE(int n)
+{
+    int i = 1;
+    while (i <= 10)
+    {
+        System.Console.WriteLine($"{i} x {n} = {i*n}");
+        i++;
+    }
+}
+
+void TabuadaDOWHILE(int n)
+{
+    int i = 1;
+
+    do
+    {
+        System.Console.WriteLine($"{i} x {n} = {i*n}");
+        i++;
+    } while (i <= 10);
+}
+
+void TabuadaFOREACH(int n)
+{
+    foreach (int i in Enumerable.Range(1, 10))
+    {
+        System.Console.WriteLine($"{i} x {n} = {i*n}");
+    }
+}
+
+void SomaDosImparesFOR(int n)
+{
+    int ultimoTermo = n/2;
+    int soma = 0;
+
+    /*
+    for (int i = 1; i <= ultimoTermo; i++)
+    {
+        soma += 2*i - 1;
+    }
+    */
+
+    for (int i = 1; i <= n; i += 2)
+    {
+        soma += i;
+    }
+
+    System.Console.WriteLine($"Através do loop FOR obtemos {soma} como resultado da soma dos ímpares entre 1 e {n}.");
+
+    int a_n = (ultimoTermo % 2 == 0) ? (ultimoTermo-1) : ultimoTermo;
+    int resultadoPA = n*(1+a_n)/2;
+
+    System.Console.WriteLine($"Pela soma da PA, o resultado foi {resultadoPA}");
+}
+
+void SomaDosImparesWHILE(int n)
+{
+    int soma = 0;
+    int i = 1;
+
+    while (i <= n)
+    {
+        soma += i;
+        i += 2;
+    }
+
+    System.Console.WriteLine($"A soma dos ímpares de 1 até {n} é {soma}.");
+}
+
+void SomaDosImparesFOREACH_LINQ(int n)
+{
+    int soma = 0;
+
+    foreach (int i in Enumerable.Range(1, n).Where(x => x % 2 != 0))
+    {
+        soma += i;
+    }
+
+    System.Console.WriteLine($"A soma dos ímpares entre 1 e {n} é {soma}");
+}
+
+void ContagemRegressivaWHILE()
+{
+    int i = 10;
+
+    while (i >= 0)
+    {
+        System.Console.WriteLine(i);
+        i --;
+    }
+}
+
+void ContagemRegressivaFOR()
+{
+    for (int i = 0; i <= 10; i++)
+    {
+        System.Console.WriteLine(10-i);
+    }
+}
+
+void ContagemRegressivaFOREACH()
+{
+    foreach (int i in Enumerable.Range(0,11))
+    {
+        System.Console.WriteLine(10 - i);
+    }
+}
+
+void AdvinhaNumeroWHILE_TERNARIO()
+{
+    Random aleatorio = new Random();
+
+    int resposta = aleatorio.Next(1,101);
+
+    System.Console.WriteLine("Nesse jogo você deve tentar acertar o número no qual eu estou pensando. Eu escolhi um número entre 1 e 100.");
+
+    int palpite = -1;
+
+    while (palpite != resposta)
+    {
+        System.Console.Write("Qual é o seu palpite? Digite: ");
+        palpite = int.Parse(Console.ReadLine());
+
+        if (palpite == resposta)
+        {
+            System.Console.WriteLine($"Parabéns! Você acertou. O número que eu pensei foi exatamente o {palpite}.");
+            break;
+        } else{
+            string comparacao = (palpite < resposta) ? $"O número que eu pensei é maior que {palpite}" : $"O número que eu pensei é menor que {palpite}";
+            System.Console.WriteLine($"Não... {comparacao}. Tente novamente.");
+        }
+    }
+}
+
+void SenhaWHILE()
+{
+    string senha = "123";
+    string respostaUsuario = "-1";
+    do
+    {
+        System.Console.Write("Senha: ");
+        respostaUsuario = Console.ReadLine();
+        if (respostaUsuario == senha)
+        {
+            System.Console.WriteLine("Login bem-sucedido.");
+        } else{
+            System.Console.WriteLine("Senha incorreta.");
+        }
+    } while(respostaUsuario != senha);
+}
+
+void Dado()
+{
+    System.Console.WriteLine("=================== Dado de 6 lados ===================");
+    System.Console.WriteLine("Digite s para fechar o programa e qualquer outra letra para rolar novamente.");
+    string resposta = "";
+    Random aleatorio = new Random();
+    int dado = aleatorio.Next(1,7);
+
+    bool loop = true;
+
+    do
+    {
+        System.Console.WriteLine($"Dado: {dado};");
+        resposta = Console.ReadLine();
+        dado = aleatorio.Next(1, 7);
+
+        loop = (resposta == "s") ? false : true;
+
+        if (!loop)
+        {
+            System.Console.WriteLine("Fim do Programa.");
+        }
+
+    } while(loop == true);
 }

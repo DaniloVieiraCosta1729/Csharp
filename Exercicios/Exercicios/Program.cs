@@ -26,6 +26,16 @@
 //Primalidade(8);
 //Primalidade(49);
 //Primalidade(73);
+//diaSemana(6);
+//diaSemana(7);
+//lowerToUpper();
+//CalculadoraSWITCHCASE(1,2,"+");
+//CalculadoraSWITCHCASE(2,3,"**");
+//CalculadoraSWITCHCASE(-1,0.5,"**");
+//CalculadoraSWITCHCASE(1,2,"/");
+//CalculadoraSWITCHCASE(2,0,"/");
+//CalculadoraSWITCHCASE(5,7,"*");
+//CalculadoraSWITCHCASE(6,8,"-");
 
 void Euclides(int x, int y)
 {
@@ -52,6 +62,8 @@ void SomaDivisoresDeTres()
     }
     Console.WriteLine($"A soma dos divisores de 3 entre 1 e 20, incluindo os extremos, é {soma}.");
 }
+
+// Exercicios de (if) (if else) (else if) (operador ternário) (switch case)
 
 void ParidadeIF_ELSE(int n)
 {
@@ -218,4 +230,71 @@ void Primalidade(int n)
     }
     string resposta = primo ? $"Sim! O número {n} é primo!" : $"Não. O número {n} não é primo, pois {divisorDeN} divide {n}.";
     System.Console.WriteLine(resposta);
+}
+
+// exercícios focados no switch case
+void diaSemana(int dia)
+{
+    switch (dia)
+    {
+        case 1:
+            System.Console.WriteLine("Domingo.");
+            break;
+        case 2:
+            System.Console.WriteLine("Segunda.");
+            break;
+        case 3:
+            System.Console.WriteLine("Terça.");
+            break;
+        case 4:
+            System.Console.WriteLine("Quarta.");
+            break;
+        case 5:
+            System.Console.WriteLine("Quinta.");
+            break;
+        case 6:
+            System.Console.WriteLine("Sexta.");
+            break;
+        case 7:
+            System.Console.WriteLine("Sábado.");
+            break;
+        default:
+            break;
+    }
+}
+
+void lowerToUpper()
+{
+    System.Console.Write("Digite uma letra: ");
+    string letra = Console.ReadLine();
+    string letraMaiuscula = letra.ToUpper();
+    System.Console.WriteLine(letraMaiuscula);
+}
+
+void CalculadoraSWITCHCASE(int x, double y, string operacao)
+{
+    switch (operacao)
+    {
+        case "+":
+            System.Console.WriteLine($"{x} + {y} = {x+y}");
+            break;
+        case "-":
+            System.Console.WriteLine($"{x} - {y} = {x-y}");
+            break;
+        case "*":
+            System.Console.WriteLine($"{x} x {y} = {x*y}");
+            break;
+        case "/":
+            string respostaDivisao = (y == 0) ? "A divisão por zero não está definida." : $"{x} / {y} = {(double)x/(double)y}";
+            System.Console.WriteLine(respostaDivisao);
+            break;
+        case "**":
+            string respostaPotencia = ((x > 0) || (x == 0 && y > 0) || (x < 0 && y % 1 == 0)) ? 
+            $"{x} ^ {y} = {Math.Pow((double)x, y)}" : 
+            "Os números digitados não retornam apenas números reais como resultado, portanto, a operação não poderá ser realizada por essa calculadora. \nDesculpe.";
+            System.Console.WriteLine(respostaPotencia);
+            break;
+        default:
+            break;
+    }
 }

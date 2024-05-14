@@ -1,4 +1,5 @@
-﻿
+﻿using Exercicios;
+
 //Euclides(1001,109);
 //SomaDivisoresDeTres();
 //ParidadeIF_ELSE(7);
@@ -48,7 +49,17 @@
 //ContagemRegressivaFOREACH();
 //AdvinhaNumeroWHILE_TERNARIO();
 //SenhaWHILE();
-Dado();
+//Dado();
+//Metodos funcao = new Metodos();
+//funcao.Saudacao("Mundo");
+//Console.WriteLine(funcao.Fatorial(4));
+//Console.WriteLine(funcao.CalcularAreaRetangulo(5, 3));
+//Metodos.Estatico();
+//Arrays.consultaArray();
+//Arrays.MudaValor();
+//Arrays.ArrayDePaises();
+//Arrays.MediaArray();
+Arrays.Matriz3x3Aurea();
 
 void Euclides(int x, int y)
 {

@@ -59,7 +59,10 @@
 //Arrays.MudaValor();
 //Arrays.ArrayDePaises();
 //Arrays.MediaArray();
-Arrays.Matriz3x3Aurea();
+//Arrays.Matriz3x3Aurea();
+//Arrays.ListaDePaises();
+//Arrays.mediaLista();
+Arrays.ListagemPrimosAteN(100);
 
 void Euclides(int x, int y)
 {

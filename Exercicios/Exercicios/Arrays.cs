@@ -99,5 +99,84 @@ namespace Exercicios
                 k += 3;
             }
         }
+
+        // Listas
+
+        public static void ListaDePaises()
+        {
+            List<string> listaDePaises = new List<string>();
+            listaDePaises.Add("Brasil");
+            listaDePaises.Add("Índia");
+            listaDePaises.Add("Croácia");
+            listaDePaises.Add("Austrália");
+            listaDePaises.Add("Macedônia do Norte");
+
+            foreach (string pais in listaDePaises)
+            {
+                Console.WriteLine(pais);
+            }
+        }
+
+        public static void mediaLista()
+        {
+            List<int> numeros = new List<int>();
+            for (int i = 0; i < 9;i++)
+            {
+                numeros.Add((int)(Math.PI*Math.Pow(10,i)%10));
+            }
+
+            int tamanho = numeros.Count();
+            foreach (int numero in numeros)
+            {
+                System.Console.Write(numero + (tamanho > 1 ? ", " : " "));
+                tamanho --;
+            }
+            double media = numeros.Average();
+            Console.WriteLine($"A média dos valores da lista é {media}");
+        }
+
+        public static void ListagemPrimosAteN(int n)
+        {
+            List<int> primos = new List<int>();
+
+            // Teste de primalidade
+            for (int i = 2; i <= n; i++)
+            {
+                int raizDeI = (int)Math.Pow(i, 0.5);
+                int divisorDeI = -1;
+                bool primo = true;
+
+                if ((i == 2) || (i == 3))
+                {
+                    goto alpha;
+                }
+                
+                for (int k = 2; k <= raizDeI; k++)
+                {
+                    bool divisor = (i % k == 0) ? true : false;
+                    if (divisor)
+                    {
+                        primo = false;
+                        break;
+                    }
+                }
+                alpha:
+                if (primo)
+                {
+                    primos.Add(i);
+                }
+
+            }
+
+            int tamanho = primos.Count;
+
+            foreach (int i in primos)
+            {
+                string virgula = ((tamanho - 1) > 0) ? ", " : " ";
+                System.Console.Write($"{i}{virgula}");
+                tamanho --;
+            }
+
+        }
     }
 }

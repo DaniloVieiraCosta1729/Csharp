@@ -148,19 +148,18 @@ namespace Exercicios
 
                 if ((i == 2) || (i == 3))
                 {
-                    goto alpha;
-                }
-                
-                for (int k = 2; k <= raizDeI; k++)
-                {
-                    bool divisor = (i % k == 0) ? true : false;
-                    if (divisor)
+                    continue;
+                } else {
+                    for (int k = 2; k <= raizDeI; k++)
                     {
-                        primo = false;
-                        break;
+                        bool divisor = (i % k == 0) ? true : false;
+                        if (divisor)
+                        {
+                            primo = false;
+                            break;
+                        }
                     }
                 }
-                alpha:
                 if (primo)
                 {
                     primos.Add(i);
@@ -177,6 +176,61 @@ namespace Exercicios
                 tamanho --;
             }
 
+        }
+
+        public static void InversorDeArray(params int[] vetor)
+        {
+            int indice = vetor.Length - 1;
+            int i = 0;
+            int[] osrevni = new int[indice + 1];
+
+            while (indice >= 0)
+            {
+                osrevni[i] = vetor[indice];
+                indice --;
+                i ++;
+            }
+
+            System.Console.WriteLine(string.Join(",", osrevni));
+        }
+
+        // Para o próximo exercício, vamos criar um delegate 100% desnecessário, mas vamos fazê-lo para já irmos se acostumando com o uso dessa ferramenta.
+        delegate bool repetido(int x, int y);
+
+        static bool verificaRepeticao(int x, int y)
+        {
+            return x == y;
+        }
+
+        public static void RemoveDuplicatas(params int[] vetor)
+        {
+            repetido verifica = verificaRepeticao;
+
+            List<int> listaSemDuplicatas = new List<int>();
+            listaSemDuplicatas.Add(vetor[0]);
+
+            for (int x = 1; x < vetor.Length; x++)
+            {
+                for (int y = 0; y < listaSemDuplicatas.Count; y++)
+                {
+                    if (verifica(vetor[x], listaSemDuplicatas[y]))
+                    {
+                        break;
+                    } else if (y == listaSemDuplicatas.Count - 1){
+                        listaSemDuplicatas.Add(vetor[x]);
+                    }
+                    
+                }
+            }
+
+            int[] arraySemDuplicatas = new int[listaSemDuplicatas.Count];
+
+            foreach (int x in listaSemDuplicatas)
+            {
+                arraySemDuplicatas[listaSemDuplicatas.IndexOf(x)] = x;
+            }
+
+            System.Console.WriteLine(string.Join(",", arraySemDuplicatas));
         }
     }
 }

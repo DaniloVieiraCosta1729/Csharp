@@ -62,8 +62,9 @@
 //Arrays.Matriz3x3Aurea();
 //Arrays.ListaDePaises();
 //Arrays.mediaLista();
-Arrays.ListagemPrimosAteN(100);
-
+//Arrays.ListagemPrimosAteN(100);
+//Arrays.InversorDeArray(1, 42, 7, 9, 5);
+Arrays.RemoveDuplicatas(1,2,2,3,4,8,7,7,7,9);
 void Euclides(int x, int y)
 {
     int q = x/y;

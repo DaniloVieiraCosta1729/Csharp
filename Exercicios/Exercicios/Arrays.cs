@@ -232,5 +232,132 @@ namespace Exercicios
 
             System.Console.WriteLine(string.Join(",", arraySemDuplicatas));
         }
+
+        public static void RemoveDuplicatasSegundaForma(params int[] vetor)
+        {
+            List<int> listaSemDuplicatas = new List<int>();
+            int coordenada;
+            bool repetido;
+            int dimensao = vetor.Length;
+            listaSemDuplicatas.Add(vetor[0]);
+
+            for (int i = 1; i < dimensao; i++)
+            {
+                repetido = (listaSemDuplicatas.Contains(vetor[i])) ? true : false;
+                if (!repetido)
+                {
+                    listaSemDuplicatas.Add(vetor[i]);
+                }
+
+            }
+
+            int[] arraySemDuplicatas = new int[listaSemDuplicatas.Count];
+
+            for (int i = 0; i < listaSemDuplicatas.Count; i++)
+            {
+                arraySemDuplicatas[i] = listaSemDuplicatas[i];
+            }
+
+            System.Console.WriteLine(string.Join(", ", arraySemDuplicatas));
+
+        }
+
+        // Maior e menor elemento
+        public static void MaiorEMenorElemento(params int[] n_upla)
+        {
+            int maior = n_upla[0];
+            int menor = n_upla[0];
+
+            foreach (int coordenada in n_upla)
+            {
+                maior = (maior < coordenada) ? coordenada : maior;
+            }
+
+            foreach (int coordenada in n_upla)
+            {
+                menor = (menor < coordenada) ? menor : coordenada;
+            }
+
+            System.Console.WriteLine($"No array[{string.Join(", ", n_upla)}], o maior elemento é {maior} e o menor é {menor}.");
+        }
+
+        public static void MaiorMenorLINQ(params int[] n_upla)
+        {
+            System.Console.WriteLine($"Na n-upla ({string.Join(", ", n_upla)}) o maior elemento é {n_upla.Max()} e o menor é {n_upla.Min()}");
+        }
+
+        // inversão de lista
+        public static void InversaoLista()
+        {
+            List<int> listaNormal = new List<int>() { 1, 6, 1, 8, 0, 3, 3, 9, 9 };
+            List<int> listaInvertida = new List<int>();
+
+            int TamanholistaNormal = listaNormal.Count;
+
+            for (int i = 1; i <= TamanholistaNormal; i++)
+            {
+                listaInvertida.Add(listaNormal[TamanholistaNormal-i]);
+            }
+
+            Console.WriteLine($"A lista que inverte [{string.Join(", ", listaNormal)}] é [{string.Join(", ", listaInvertida)}].");
+
+        }
+
+        public static void RemoveMenorQ5(params int[] lista)
+        {
+            List<int> listaDeNumeros = new List<int>();
+            List<int> menoresQ5 = new List<int>();
+
+            foreach (int i in lista) // é um exercício de lista, então vamos criar essa lista para guardar a entrada. Eu sei que ela é desnecessária... eu n sou burro >=(  ... talvez eu seja um pouco.. 
+            {
+                listaDeNumeros.Add(i);
+            }
+
+            foreach (int i in listaDeNumeros)
+            {
+                if (i < 5)
+                {
+                    menoresQ5.Add(i);
+                }
+            }
+        }
+        delegate List<int> criaLista(params int[] numeros);
+
+        public static void ConcatenacaoDeListas()
+        {
+            List<int> lista1 = new List<int>();
+            List<int> lista2;
+            List<int> concatenado = new List<int>();
+
+            criaLista criar = new criaLista(fazLista);
+
+            lista1 = criar(1, 2, 3, 4, 5);
+            lista2 = criar(9, 9, 8, 13, 2, 1234, 4321);
+
+            foreach (int i in lista1)
+            {
+                concatenado.Add(i);
+            }
+
+            foreach (int i in lista2)
+            { concatenado.Add(i); }
+
+            Console.WriteLine($"A concatenação de [{string.Join(", ", lista1)}] e [{string.Join(", ", lista2)}] é [{string.Join(", ", concatenado)}]");
+
+        }
+
+        public static List<int> fazLista(params int[] numeros)
+        {
+            List<int > lista = new List<int>();
+
+            foreach (int i in numeros)
+            {
+                lista.Add(i);
+            }
+
+            return lista;
+        }
+
+        
     }
 }

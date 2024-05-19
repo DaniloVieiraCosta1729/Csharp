@@ -64,7 +64,73 @@
 //Arrays.mediaLista();
 //Arrays.ListagemPrimosAteN(100);
 //Arrays.InversorDeArray(1, 42, 7, 9, 5);
-Arrays.RemoveDuplicatas(1,2,2,3,4,8,7,7,7,9);
+//Arrays.RemoveDuplicatas(1,2,2,3,4,8,7,7,7,9);
+//Arrays.RemoveDuplicatasSegundaForma(1,2,2,3,4,8,7,7,5,5,7,9);
+//Arrays.MaiorEMenorElemento(-4, 1, 7, 9, 10, 5, 42, 23);
+//Arrays.MaiorMenorLINQ(-4, 1, 7, 9, 10, 5, 42, 23);
+//Arrays.InversaoLista();
+//Arrays.ConcatenacaoDeListas();
+
+/*
+Produto acucar = new Produto("açúcar", 2.90, 100);
+
+acucar.EstoqueProduto();
+acucar.ValorEstoque();
+
+acucar.Quantidade = 101;
+
+acucar.EstoqueProduto();
+acucar.ValorEstoque();
+*/
+
+/*
+Carro carro1 = new Carro("Nissan", "GTR Skyline", 1998);
+Carro carro2 = new Carro("Mitsubishi", "Lancer EVO 8", 2003);
+
+carro1.informacoes();
+carro2.informacoes();
+*/
+
+/*
+ContaBancaria conta1 = new ContaBancaria("123", 3000);
+
+conta1.Extrato();
+conta1.Depositar(4000);
+conta1.Extrato();
+conta1.Sacar(100);
+conta1.Extrato();
+conta1.Sacar(10000);
+*/
+/*
+Animal dog1 = new Cachorro { Nome = "Cérbero"};
+Animal cat1 = new Gato { Nome = "Fulano" };
+
+cat1.FazerSom();
+dog1.FazerSom();
+*/
+/*
+Veiculo carro1 = new Carro { Ano = 2003, Modelo = "Lancer EVO 8", Marca = "Mitsubishi"};
+Veiculo moto1 = new Moto { Marca = "Kawasaki", Cilindradas = 636, Ano = 2022, Modelo = "NINJA ZX-6R" };
+
+carro1.Info();
+moto1.Info();
+*/
+
+/*
+Forma quadrado = new Retangulo();
+Forma circulo = new Circulo();
+
+quadrado.CalculaArea();
+circulo.CalculaArea();
+
+Forma[] arrayFormas = new Forma[2] {quadrado, circulo};
+foreach (Forma i in arrayFormas)
+{
+    i.CalculaArea();
+}
+*/
+
+
 void Euclides(int x, int y)
 {
     int q = x/y;

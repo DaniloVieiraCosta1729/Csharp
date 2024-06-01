@@ -129,7 +129,37 @@ foreach (Forma i in arrayFormas)
     i.CalculaArea();
 }
 */
+/*
+Carro lancer = new Carro();
+lancer.Ligar();
+lancer.Desligar();
+Motos zx6r = new Motos();
+zx6r.Ligar();
+zx6r.Desligar();
+*/
 
+//Quadrados square1 = new Quadrados(4, 7);
+//square1.MostrarArea();
+
+//DelegatesAndEvents exemplo = new DelegatesAndEvents();
+//exemplo.mostraResultado();
+/*
+
+Func<string, string> ConversorTextoMAI = x => x.ToUpper();
+Func<string, string> ConversorTextoMIN = x => x.ToLower();
+
+string texto = "Wir müssen wissen,\r\nWir werden wissen.\n";
+
+Console.WriteLine(ConversorTextoMAI(texto));
+Console.WriteLine(ConversorTextoMIN(texto));
+*/
+
+Sensor sinal = new Sensor();
+Controlador receptor = new Controlador();
+
+sinal.SensorAtivado += receptor.MetodoInscritoNoEvento;
+
+sinal.Disparador();
 
 void Euclides(int x, int y)
 {

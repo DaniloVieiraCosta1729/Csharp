@@ -18,7 +18,7 @@ namespace Exercicios
         }
     }
 
-    public class Carro : Veiculo
+    public class Carros : Veiculo
     {
         private string _modelo;
 

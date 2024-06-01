@@ -60,4 +60,37 @@ namespace Exercicios
             Console.WriteLine("Evento captado com sucesso.");
         }
     }
+
+    // Multicast Delegate
+    public class Notificao
+    {
+        public delegate void Notificacao(string texto);
+
+        private Notificacao _notificar;
+
+        public Notificao()
+        {
+            _notificar = NotificacaoEmail;
+            _notificar += NotificacaoPush;
+            _notificar += NotificacaoSMS;
+        }
+
+        public void NotificacaoEmail(string mensagem)
+        {
+            Console.WriteLine($"Email: {mensagem}");
+        }
+        public void NotificacaoSMS(string mensagem)
+        {
+            Console.WriteLine($"SMS: {mensagem}");
+        }
+        public void NotificacaoPush(string mensagem)
+        {
+            Console.WriteLine($"Push: {mensagem}");
+        }
+
+        public void EnviarMensagem(string mensagem)
+        {
+            _notificar(mensagem);
+        }
+    }
 }

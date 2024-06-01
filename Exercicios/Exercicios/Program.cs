@@ -154,12 +154,20 @@ Console.WriteLine(ConversorTextoMAI(texto));
 Console.WriteLine(ConversorTextoMIN(texto));
 */
 
-Sensor sinal = new Sensor();
-Controlador receptor = new Controlador();
+//Sensor sinal = new Sensor();
+//Controlador receptor = new Controlador();
 
-sinal.SensorAtivado += receptor.MetodoInscritoNoEvento;
+//sinal.SensorAtivado += receptor.MetodoInscritoNoEvento;
 
-sinal.Disparador();
+//sinal.Disparador();
+
+/*
+
+Notificao mensagem = new Notificao();
+
+mensagem.EnviarMensagem("Mensagem sobre algo.");
+
+*/
 
 void Euclides(int x, int y)
 {

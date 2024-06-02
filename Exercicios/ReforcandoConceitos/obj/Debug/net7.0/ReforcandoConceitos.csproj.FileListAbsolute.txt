@@ -1,0 +1,14 @@
+D:\IT\dotNET\Estudos\Csharp\Exercicios\ReforcandoConceitos\bin\Debug\net7.0\ReforcandoConceitos.exe
+D:\IT\dotNET\Estudos\Csharp\Exercicios\ReforcandoConceitos\bin\Debug\net7.0\ReforcandoConceitos.deps.json
+D:\IT\dotNET\Estudos\Csharp\Exercicios\ReforcandoConceitos\bin\Debug\net7.0\ReforcandoConceitos.runtimeconfig.json
+D:\IT\dotNET\Estudos\Csharp\Exercicios\ReforcandoConceitos\bin\Debug\net7.0\ReforcandoConceitos.dll
+D:\IT\dotNET\Estudos\Csharp\Exercicios\ReforcandoConceitos\bin\Debug\net7.0\ReforcandoConceitos.pdb
+D:\IT\dotNET\Estudos\Csharp\Exercicios\ReforcandoConceitos\obj\Debug\net7.0\ReforcandoConceitos.GeneratedMSBuildEditorConfig.editorconfig
+D:\IT\dotNET\Estudos\Csharp\Exercicios\ReforcandoConceitos\obj\Debug\net7.0\ReforcandoConceitos.AssemblyInfoInputs.cache
+D:\IT\dotNET\Estudos\Csharp\Exercicios\ReforcandoConceitos\obj\Debug\net7.0\ReforcandoConceitos.AssemblyInfo.cs
+D:\IT\dotNET\Estudos\Csharp\Exercicios\ReforcandoConceitos\obj\Debug\net7.0\ReforcandoConceitos.csproj.CoreCompileInputs.cache
+D:\IT\dotNET\Estudos\Csharp\Exercicios\ReforcandoConceitos\obj\Debug\net7.0\ReforcandoConceitos.dll
+D:\IT\dotNET\Estudos\Csharp\Exercicios\ReforcandoConceitos\obj\Debug\net7.0\refint\ReforcandoConceitos.dll
+D:\IT\dotNET\Estudos\Csharp\Exercicios\ReforcandoConceitos\obj\Debug\net7.0\ReforcandoConceitos.pdb
+D:\IT\dotNET\Estudos\Csharp\Exercicios\ReforcandoConceitos\obj\Debug\net7.0\ReforcandoConceitos.genruntimeconfig.cache
+D:\IT\dotNET\Estudos\Csharp\Exercicios\ReforcandoConceitos\obj\Debug\net7.0\ref\ReforcandoConceitos.dll

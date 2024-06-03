@@ -34,4 +34,11 @@ namespace ReforcandoConceitos
             ArquivoCriado?.Invoke(this, e);
         }
     }
+
+    public class CriadorTexto
+    {
+        // Vamos usar o evento pré-programado adequado para se trabalhar com manipulação de arquivos. Segundo a documentação, a classe File de System.IO contém os métodos, campos, propriedades etc. que precisamos para fazer esse tipo de trabalho.
+
+
+    }
 }

@@ -70,6 +70,34 @@
 //Arrays.MaiorMenorLINQ(-4, 1, 7, 9, 10, 5, 42, 23);
 //Arrays.InversaoLista();
 //Arrays.ConcatenacaoDeListas();
+//Excecoes.ForaDoArray();
+
+Produto pera = new Produto("pera",1.99,100);
+
+
+//try
+//{
+//    Excecoes.divisao(5,0);
+//} catch (DivideByZeroException e)
+//{
+//    Console.WriteLine(e.Message);
+//} finally
+//{
+//    Console.WriteLine("\nFim do programa.");
+//}
+
+/*
+try
+{
+    Excecoes.ArrayEIndice(new int[] { 1, 2, 3, 4 }, 8);
+} catch (IndexOutOfRangeException excecao)
+{
+    Console.WriteLine(excecao.Message);
+} finally
+{
+    Console.WriteLine("\nFim do programa.");
+}
+*/
 
 /*
 Produto acucar = new Produto("açúcar", 2.90, 100);

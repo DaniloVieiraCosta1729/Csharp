@@ -49,4 +49,10 @@ namespace Exercicios
             Console.WriteLine(a/b);
         }
     }
+
+    public class EstoqueInsuficienteException : Exception
+    {
+        // Vamos iniciarlizar o construtor com uma chamada do construtor da classe base e passando uma mensagem personalizada como parametro.
+        public EstoqueInsuficienteException() : base("Estoque insulficiente.") { }
+    }
 }

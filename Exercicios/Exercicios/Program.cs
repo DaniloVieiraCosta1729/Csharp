@@ -72,7 +72,28 @@
 //Arrays.ConcatenacaoDeListas();
 //Excecoes.ForaDoArray();
 
-Produto pera = new Produto("pera",1.99,100);
+//Produto pera = new Produto("pera",1.95,100);
+//pera.ValorEstoque();
+//pera.vender(4);
+//pera.ValorEstoque();
+
+//try
+//{
+//    pera.vender(200);
+//}
+//catch (EstoqueInsuficienteException ex)
+//{ 
+//    Console.WriteLine(ex.Message);
+//}
+
+//int a = 2, b = 9;
+//string x = "oi", y = "amigo";
+//Console.WriteLine($"{x}, {y}\n{a} - {b}");
+//Genericos.TrocarValores<int>(ref a , ref b);
+//Genericos.TrocarValores(ref x , ref y);
+//Console.WriteLine($"{x}, {y}\n{a} - {b}");
+
+
 
 
 //try
@@ -168,34 +189,82 @@ zx6r.Desligar();
 
 //Quadrados square1 = new Quadrados(4, 7);
 //square1.MostrarArea();
-
 //DelegatesAndEvents exemplo = new DelegatesAndEvents();
 //exemplo.mostraResultado();
 /*
 
 Func<string, string> ConversorTextoMAI = x => x.ToUpper();
 Func<string, string> ConversorTextoMIN = x => x.ToLower();
-
 string texto = "Wir müssen wissen,\r\nWir werden wissen.\n";
-
 Console.WriteLine(ConversorTextoMAI(texto));
 Console.WriteLine(ConversorTextoMIN(texto));
 */
 
 //Sensor sinal = new Sensor();
 //Controlador receptor = new Controlador();
-
 //sinal.SensorAtivado += receptor.MetodoInscritoNoEvento;
-
 //sinal.Disparador();
 
-/*
 
-Notificao mensagem = new Notificao();
 
-mensagem.EnviarMensagem("Mensagem sobre algo.");
+//Notificao mensagem = new Notificao();
+//mensagem.EnviarMensagem("Mensagem sobre algo.");
 
-*/
+//Par<int, string> firstObj = new Par<int, string>( 3,  "oi");
+//Par<double, bool> secondObj = new Par<double, bool>(3.1415, true);
+//firstObj.Mostra();
+//secondObj.Mostra();
+//firstObj.Define(2, "web");
+//secondObj.Define(2.71828183, false);
+//firstObj.Mostra();
+//secondObj.Mostra();
+
+//List<int> inteiros = new List<int>() { 1, 2, 3, 4, 5};
+//List<string> textos = new List<string>() { "abc", "cba", "Texto"};
+//int x = UltimoElemento.ObterUltimoElemento(inteiros);
+//string y = UltimoElemento.ObterUltimoElemento(textos);
+//Console.WriteLine($"{x} {y}");
+
+//Pilha<int> pilha = new Pilha<int>();
+//pilha.Push(1);
+//pilha.Push(2);
+//pilha.Push(3);
+//pilha.Push(4);
+//Console.WriteLine(pilha.Pop());
+//Console.WriteLine(pilha.Pop());
+//Console.WriteLine(pilha.Pop());
+//pilha.Push(7);
+//Console.WriteLine(pilha.Pop());
+
+//Pilha<bool> pilhaLogica = new Pilha<bool>();
+//pilhaLogica.Push(true);
+//pilhaLogica.Push(false);
+//pilhaLogica.Push(true);
+//pilhaLogica.Push(false);
+//Console.WriteLine(pilhaLogica.Pop());
+//Console.WriteLine(pilhaLogica.Pop());
+
+//CriaArrays<int, string, bool> isb = new CriaArrays<int, string, bool>();
+//isb.Push(1, "Oi", true);
+//isb.Push(3, "hello", false);
+//isb.Push(4, "こんばんわ", true);
+//isb.showww();
+
+TurmaX<string, int> aluna = new TurmaX<string, int>("Fulana");
+TurmaX<string, int> aluno = new TurmaX<string, int>("Fulano");
+
+aluna.AdicionarNota(9);
+aluna.AdicionarNota(7);
+aluna.AdicionarNota(10);
+
+aluno.AdicionarNota(10);
+aluno.AdicionarNota(10);
+aluno.AdicionarNota(9);
+aluno.AdicionarNota(11);
+
+aluna.MostrarNotas();
+aluno.MostrarNotas();
+
 
 void Euclides(int x, int y)
 {

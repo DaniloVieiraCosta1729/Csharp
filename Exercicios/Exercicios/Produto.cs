@@ -36,5 +36,14 @@ namespace Exercicios
         {
             Console.WriteLine($"O valor total do estoque de {_nome} é R$ {_quantidade*_preco}");
         }
+
+        public void vender(int qtd)
+        {
+            if (Quantidade < qtd)
+            {
+                throw new EstoqueInsuficienteException();
+            }
+            Quantidade -= qtd;
+        }
     }
 }

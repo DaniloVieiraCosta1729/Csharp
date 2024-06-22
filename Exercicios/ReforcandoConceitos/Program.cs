@@ -64,4 +64,4 @@ botao.OnBottonPressed();
 //public delegate bool Paridade(int numero);
 // =====================================================
 
-
+EventoRelogio.Main();

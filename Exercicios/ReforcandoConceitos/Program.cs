@@ -1,4 +1,6 @@
 ﻿using ReforcandoConceitos;
+using System.Net.NetworkInformation;
+using System.Threading.Channels;
 
 /*
 EventoBotao botao = new EventoBotao();
@@ -64,4 +66,60 @@ botao.OnBottonPressed();
 //public delegate bool Paridade(int numero);
 // =====================================================
 
-EventoRelogio.Main();
+//EventoRelogio.Main();
+
+//const string uriString = "https://learn.microsoft.com/en-us/dotnet/path?key=value#bookmark";
+
+//Uri objUri = new Uri(uriString);
+
+//Console.WriteLine(objUri.Host);
+//Console.WriteLine(objUri.PathAndQuery);
+//Console.WriteLine(objUri.Fragment);
+
+//NetworkChange.NetworkAddressChanged += OnNetworkAddressChanged;
+
+//static void OnNetworkAddressChanged(
+//    object? sender, EventArgs args)
+//{
+//    foreach ((string name, OperationalStatus status) in
+//        NetworkInterface.GetAllNetworkInterfaces()
+//            .Select(networkInterface =>
+//                (networkInterface.Name, networkInterface.OperationalStatus)))
+//    {
+//        Console.WriteLine(
+//            $"{name} is {status}");
+//    }
+//}
+
+//Console.WriteLine(
+//    "Listening for address changes. Press any key to continue.");
+//Console.ReadLine();
+
+//NetworkChange.NetworkAddressChanged -= OnNetworkAddressChanged;
+
+//Action<int> falar;
+//falar = Console.WriteLine;
+
+//falar(Delegates.mais(2, 3));
+
+//Delegates.mais += Delegates.Subtrai;
+
+//falar(Delegates.mais(2, 3));
+
+//Delegates.UniaoTexto concatenacao = delegate(string a, string b) { return $"{a} {b}"; };
+
+//Console.WriteLine(concatenacao("Hello,","World."));
+
+//Delegates.JuntaTipos<string, int, string> NumeroTexto = delegate (string a, int b) { return $"{a} {b}"; };
+
+//string resultado = NumeroTexto("Número: ", 3);
+
+//Console.WriteLine(resultado);
+
+Delegates.Func<double, double, int> SomaInteira = (double a, double b) => (int)(a + b);
+
+Console.WriteLine(SomaInteira(3.14,2.71));
+
+Delegates.Func<int, string, bool> Q = (int a, string b) => ($"{a}" == $"{b}");
+
+Console.WriteLine( Q(3, "3"));
